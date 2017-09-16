@@ -3,22 +3,13 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>confirm</title>
+<title>document.write</title>
   <script type="text/javascript">
-  function rec(){
-    var mymessage=confirm("确定登录？")        ;
-    if(mymessage==true)
-    {
-    	document.write("登录成功!");
-    }
-    else
-    {
-        document.write("登录失败!");
-    }
-  }    
+    var mystr="我是";
+    var mychar="JavaScript";
+document.write(mystr+mychar++"的忠实粉丝！"+"<br>");
   </script>
 </head>
 <body>
-    <input name="button" type="button" onClick="rec()" value="点击，进入登录界面" />
 </body>
 </html>
