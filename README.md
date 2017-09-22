@@ -1,64 +1,49 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <meta name="keywords" content="天津大学电气自动化与信息工程学院" />
+    <meta name="description" content="天津大学电气自动化与信息工程学院" />
+<title>天津大学电气自动化与信息工程学院</title>
+<link href="./images/css.css" rel="stylesheet" type="text/css">
+
+<link href="./images/menu_xiala.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="./images/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="./images/slide.js"></script>
+
 <style type="text/css">
-
-h1 {background-color: #F0F8FF}	
-
-<meta charset="utf-8" />
-		<title>天津大学电气与自动化与信息工程学院</title>
-		
-.dropbtn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
+#apDiv1 {
+	position: absolute;
+	left: 0px;
+	width: 100%;
+	z-index: 1;
 }
-
-.dropdown {
-    position: relative;
-    display: inline-block;
+#apDiv2 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 40px;
+	z-index: 2;
 }
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #99CCFF;
-    min-width: 90px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    float:center;
-}
-
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.dropdown:hover .dropbtn {
-    background-color: #3e8e41;
-}
-
 </style>
+
+
+<!--幻灯片-->
+<link rel="stylesheet" id="fusion-style-css" href="./images/style.css" type="text/css" media="all">
+<script type="text/javascript" src="./images/jquery.js"></script>
+
+
 </head>
 
-<body background="#F1E1FF">
-	
-<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" background="img/tu1.jpg">
+<body>
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" background="./images/test_02.jpg">
   <tr>
     <td>&nbsp;</td>
     <td width="1200"><table width="100%" border="0" cellspacing="0" cellpadding="0">
       <tr>
-        <td width="77%"><a href="./"><img src="img/logo.jpg.jpg" alt="" /></a></td>
+        <td width="77%"><a href="./"><img src="./images/test_01.jpg" alt="" /></a></td>
         <td width="23%" align="center" valign="bottom" class="yanse1"><a href="./">中文版</a> | <a href="#">ENGLISH</a> | <a href="http://seea.tju.edu.cn/" target="_blank">旧版网站</a></td>
       </tr>
     </table></td>
@@ -67,171 +52,212 @@ h1 {background-color: #F0F8FF}
 </table>
 
 
-<style type="text/css">
-	
-ul
-{
-list-style-type:none;
-margin:0;
-padding:0;
-}
-.li1
-{
-float:left;
-}
-.li2
-{
-float:right;
-}
-
-.xiao
-{
-display:block;
-width:130px;
-height:30px;
-color: white;
-align-content: center;
-}
-.da
-{
-display:block;
-width:80px;
-height:30px;
-}
-</style>
-
-
-
-<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" background="img/tu2.jpg">
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" background="./images/bg.png">
   <tr>
   <td>&nbsp;</td>
     <td width="1200">
-    	
+    
     <ul id="nav">
-    <li  class="li1" href="#"><a href="./" style="text-decoration:none" class="xiao" href="#">首&nbsp;&nbsp;&nbsp;&nbsp;页</a>   </li>
+    <li class="mainlevel"><a href="./">首&nbsp;&nbsp;&nbsp;&nbsp;页</a>   </li>
 
-    <div class="dropdown">
-    <span class="dropbtn"><li id="mainlevel_01" class="li1" href="#"><a href="./xygk/" style="text-decoration:none" class="xiao" href="#">学院概况</a></span>
-    </li>&nbsp;<br/>
-      <div class="dropdown-content">
-        <a href="">学院简介</a>
-        <a href="">现任领导</a>
-      </div>
-    </div>
-    
-     <div class="dropdown">
-     <span class="dropbtn"><li  id="mainlevel_01" class="li1" href="#"><a href="./xwzx/" style="text-decoration:none" class="xiao" href="#">新闻中心</a>
-     </li><br/>
-      <div class="dropdown-content">
-        <a href="">学院简介</a>
-        <a href="">现任领导</a>
-      </div>
-    </div>
-    
-    <div class="dropdown">
-     <span class="dropbtn"><li  id="mainlevel_02" class="li1" href="#"><a href="./szdw/" style="text-decoration:none" class="xiao" href="#">师资队伍</a>
-    </li><br/>
-    <div class="dropdown-content">
-        <a href="">学院简介</a>
-        <a href="">现任领导</a>
-      </div>
-    </div>
-    
-    <div class="dropdown">
-     <span class="dropbtn"><li  id="mainlevel_03" class="li1" href="#"><a href="./bksjy/" style="text-decoration:none" class="xiao" href="#">本科生教育</a>
-    </li><br/>
-    <div class="dropdown-content">
-        <a href="">学院简介</a>
-        <a href="">现任领导</a>
-      </div>
-    </div>
-    
-    <div class="dropdown">
-     <span class="dropbtn"><li  id="mainlevel_04" class="li1" href="#"><a href="./yjsjx/" style="text-decoration:none" class="xiao" href="#">研究生教育</a>
-    </li><br/>
-    <div class="dropdown-content">
-        <a href="">学院简介</a>
-        <a href="">现任领导</a>
-      </div>
-    </div>
+   
+    <li class="mainlevel" id="mainlevel_01"><a href="./xygk/">学院概况</a>
+    <ul id="sub_01">
 
-     <div class="dropdown">
-     <span class="dropbtn"><li  id="mainlevel_05" class="li1" href="#"><a href="./kxyj/" style="text-decoration:none" class="xiao" href="#">科学研究</a>
-    </li><br/>
-    <div class="dropdown-content">
-        <a href="">学院简介</a>
-        <a href="">现任领导</a>
-      </div>
-    </div>
-
-     <div class="dropdown">
-     <span class="dropbtn"><li  id="mainlevel_06" class="li1" href="#"><a href="./dtjs/" style="text-decoration:none" class="xiao" href="#">学生工作</a>
-    </li><br/>
-    <div class="dropdown-content">
-        <a href="">学院简介</a>
-        <a href="">现任领导</a>
-      </div>
-    </div>
+        <li><a href="./xygk/xyjj/">学院简介</a></li> 
+        
+        <li><a href="./xygk/xrld/">现任领导</a></li> 
+        
+        <li><a href="./xygk/lsyg/">历史沿革</a></li> 
+        
+        <li><a href="./xygk/jgsz/">机构设置</a></li> 
+            
+            </ul>
+    </li>
     
-</ul>
-</td>
-</tr>
+    <li class="mainlevel" id="mainlevel_01"><a href="./xwzx/">新闻中心</a>
+    <ul id="sub_01">
+
+        <li><a href="./xwzx/xyxw/">学院新闻</a></li> 
+        
+        <li><a href="./xwzx/zxjj/">通知公告</a></li> 
+        
+        <li><a href="./xwzx/dsj/">大事记</a></li> 
+            
+            </ul>
+    </li>
+
+    <li class="mainlevel" id="mainlevel_02"><a href="./szdw/">师资队伍</a>
+    <ul id="sub_02">
+
+        <li><a href="./szdw/dqgcx/">电气工程系</a></li> 
+        
+        <li><a href="./szdw/zdhx/">自动化系</a></li> 
+        
+        <li><a href="./szdw/xxx/">信息系</a></li> 
+        
+        <li><a href="./szdw/txx/">通信系</a></li> 
+        
+        <li><a href="./szdw/xddgdzjszx/">现代电工电子技术中心</a></li> 
+        
+        <li><a href="./szdw/syzx/">电气电子实验教学中心</a></li> 
+        
+        <li><a href="./szdw/dgdzsyzx/">电气与自动化实验中心</a></li> 
+        
+        <li><a href="./szdw/bsh/">博士后</a></li> 
+            
+    </ul>
+    </li>
+    
+    <li class="mainlevel" id="mainlevel_03"><a href="./bksjy/">本科生教育</a>
+    <ul id="sub_03">
+
+        <li><a href="./bksjy/dqgc/">电气工程及其自动化</a></li> 
+        
+        <li><a href="./bksjy/zdh/">自动化</a></li> 
+        
+        <li><a href="./bksjy/txgc/">通信工程</a></li> 
+        
+        <li><a href="./bksjy/dzxxgc/">电子信息工程</a></li> 
+        
+        <li><a href="./bksjy/wlwgc/">物联网工程</a></li> 
+            
+    </ul>
+    </li>
+    
+    <li class="mainlevel" id="mainlevel_04"><a href="./yjsjx/">研究生教育</a>
+    <ul id="sub_04">
+
+        <li><a href="./yjsjx/tzgg/">通知公告</a></li> 
+        
+        <li><a href="./yjsjx/xksz/">学科设置</a></li> 
+        
+        <li><a href="./yjsjx/zsylq/">招生与录取</a></li> 
+        
+        <li><a href="./yjsjx/yjspy/">研究生培养</a></li> 
+        
+        <li><a href="./yjsjx/byyxw/">毕业与学位</a></li> 
+        
+        <li><a href="./yjsjx/wj/">文件下载</a></li> 
+        
+        <li><a href="./yjsjx/lxwm/">联系我们</a></li> 
+            
+    </ul>
+    </li>
+
+
+    <li class="mainlevel" id="mainlevel_05"><a href="./kxyj/">科学研究</a>
+    <ul id="sub_05">
+
+        <li><a href="./kxyj/gjjsbjjd/">研究方向</a></li> 
+        
+        <li><a href="./kxyj/kyczjg/">科研平台</a></li> 
+        
+        <li><a href="./kxyj/sypt/">科研成果</a></li> 
+            
+    </ul>
+    </li>
+
+
+    <li class="mainlevel" id="mainlevel_06"><a href="./dtjs/">学生工作</a>
+    <ul id="sub_06">
+
+        <li><a href="./dtjs/tztg/">通知公告</a></li> 
+        
+        <li><a href="./dtjs/cxcy/">活动新闻</a></li> 
+        
+        <li><a href="./dtjs/bjjs/">学生组织及社团</a></li> 
+        
+        <li><a href="./dtjs/shsj/">工作流程及表格下载</a></li> 
+        
+        <li><a href="./dtjs/jzxj/">优秀学子</a></li> 
+            
+    </ul>
+    </li>
+    
+
+
+    <li class="mainlevel" id="mainlevel_04"><a href="./xyzj/">校友之家</a>
+    <ul id="sub_04">
+
+        <li><a href="./xyzj/xyhd/">校友活动</a></li> 
+        
+        <li><a href="./xyzj/xyfc/">校友风采</a></li> 
+        
+        <li><a href="./xyzj/xyjz/">校友捐赠</a></li> 
+            
+    </ul>
+    </li>
+
+
+    
+    <div class="clear"></div>
+</ul></td>
+  <td>&nbsp;</td>
+
+  </tr>
 </table>
-
-
-<!--
-	两边的竖排条纹
--->
-<div id="menu" style="background-color:#FFFFCC;height:800px;width:80px;float:right;">
-</div>
-<div id="menu" style="background-color:#FFFFCC;height:800px;width:80px;float:left;">
-</div>
-
-
-
-<ul>
-<img border="0" src="img/tu3.jpg" alt="Pulpit rock" width="650" height="400" hspace="15" vspace="15">
-    <li class="li2" href="#"><a href="./xygk/" style="text-decoration:none" class="da" href="#" >行政&nbsp;&nbsp;&nbsp;</a></li>
-    <li class="li2" href="#"><a href="./xygk/" style="text-decoration:none" class="da" href="#">科研&nbsp;&nbsp;&nbsp;</a></li>
-    <li class="li2" href="#"><a href="./xygk/" style="text-decoration:none" class="da" href="#">教学&nbsp;&nbsp;&nbsp;</a></li>
-    <li class="li2" href="#"><a href="./xygk/" style="text-decoration:none" class="da" href="#">人事&nbsp;&nbsp;&nbsp;</a></li>
-    <li class="li2" href="#"><a href="./xygk/" style="text-decoration:none" class="da" href="#">学术&nbsp;&nbsp;&nbsp;</a></li>
-    <li class="li2" href="#"><a href="./xygk/" style="text-decoration:none" class="da" href="#">通知&nbsp;&nbsp;&nbsp;</a></li>
- </ul>
-
-<ul>
-	<li class="li1" href="#" >
-	<h3 style="background-color:#C0C0C0;height:30px;width:435px;float:left;margin-left:15px" >&nbsp;&nbsp;学院新闻</h3>
-    <p>&nbsp;&nbsp;&nbsp;&nbsp;>>>电气学院召开全院教职工大会</p>
-    <p>&nbsp;&nbsp;&nbsp;&nbsp;>>>关于国家法定节假日的放假通知</p>
-    <p>&nbsp;&nbsp;&nbsp;&nbsp;>>>电气自动化与信息工程学院2018届推免招生工作安排</p>
-     <p>&nbsp;&nbsp;&nbsp;&nbsp;>>>电气自动化与信息工程学院召开全体新生大会</p>
-    <p>&nbsp;&nbsp;&nbsp;&nbsp;>>>电气自动化与信息工程学院2017届新生入学指南</p>
-    <p>&nbsp;&nbsp;&nbsp;&nbsp;>>>电气自动化与信息工程学院最新讯息</p>
- </li>
+<div id="et-slider-wrapper">
+	<div id="et-slides">
     
-    <li class="li1" href="#" >
-    <h3 style="background-color:#C0C0C0;height:30px;width:435px;float:left;margin-left:30px" >&nbsp;&nbsp;学术活动</h3>
-    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>>>加拿大康考迪亚大学张友民教授访问自动化学院</p>
-    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>>>英国阿伯丁大学Celso Grebogi院士访问自动化学院</p>
-    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>>>中国电子学会图论与系统优化2017学术年会在天津大学举行</p>
-    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>>>自动化学院2004级电力系统高压研究生班校友回母校团聚</p>
-    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>>>自动化学院召开学院发展研讨会</p>
-    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>>>天津市第一届视觉模式分析研讨会在天津大学成功召开</p>
-     </li>
-
     
-<li class="li2" href="#">
-<img border="0" src="img/bangong.jpg" alt="Pulpit rock" width="200" height="70" hspace="15" vspace="15"><br/>
-<img border="0" src="img/xueke.jpg" alt="Pulpit rock" width="200" height="70" hspace="15" vspace="15"><br/>
-<img border="0" src="img/yuanzhang.jpg" alt="Pulpit rock" width="200" height="70" hspace="15" vspace="15"><br/>
-</li>
-</ul>
-
-<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" background="img/tu2.jpg">
- <tr>
+		<div class="et-slide" style="background-image: url(./sy_1/hdp/201708/W020170822667320194345.jpg);">
+			<div class="container clearfix">
+				
+				<!-- .description -->
+				<div class="featured-image">
+ 
+ 				</div>
+				<!-- .featured-image --></div>
+			<!-- .container --></div>
+            
+		
+		<div class="et-slide" style="background-image: url(./sy_1/hdp/201603/W020160326786708760456.jpg);">
+			<div class="container clearfix">
+				
+				<!-- .description -->
+				<div class="featured-image">
+ 
+ 				</div>
+				<!-- .featured-image --></div>
+			<!-- .container --></div>
+            
+		
+		<div class="et-slide" style="background-image: url(./sy_1/hdp/201708/W020170822669944726988.jpg);">
+			<div class="container clearfix">
+				
+				<!-- .description -->
+				<div class="featured-image">
+ 
+ 				</div>
+				<!-- .featured-image --></div>
+			<!-- .container --></div>
+            
+		
+		<div class="et-slide" style="background-image: url(./sy_1/hdp/201708/W020170822669099433980.jpg);">
+			<div class="container clearfix">
+				
+				<!-- .description -->
+				<div class="featured-image">
+ 
+ 				</div>
+				<!-- .featured-image --></div>
+			<!-- .container --></div>
+            
+		
+		<!-- .et-slide --></div>
+	<!-- #et-slides --></div>
+    
+<script type="text/javascript" src="./images/superfish.js"></script>
+<script type="text/javascript" src="./images/jquery.fitvids.js"></script>
+<script type="text/javascript" src="./images/custom.js"></script>
+<script type="text/javascript" src="./images/modernizr.js"></script>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#171717">
+      <tr>
         <td>&nbsp;</td>
         <td width="1200" height="100" align="center" class="foot_style">
+        
+        
 			<div class=TRS_Editor><p align="center">地址: 天津市南开区卫津路92号 天津大学 电气自动化与信息工程学院 邮编: 300072 电话: (022)27405477 E-mail: auto@tju.edu.cn 津ICP备05004358号 <br />
 津教备0316号 天津大学 电气自动化与信息工程学院 版权所有</p></div>
 
@@ -239,7 +265,6 @@ height:30px;
 </td>
         <td>&nbsp;</td>
       </tr>
- </table>     
+    </table>
 </body>
 </html>
-
